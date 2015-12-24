@@ -1,0 +1,20 @@
+.password-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.password-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+body {
+  background: url('snow-falling.gif') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

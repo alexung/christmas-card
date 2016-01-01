@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>ChristmasCard</title>
+  <title>Christmas Card</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <div class="navbar navbar-default">
-      <h1><a href="/">Christmas Card</a></h1>
+  <div class="navbar navbar-default navbar-christmas-positioning">
+      <h1><a href="/" class="navbar-christmas-decoration">Christmas Card</a></h1>
   </div>
 <%= yield %>
 
